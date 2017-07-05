@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.0.3'
+
 gem 'bcrypt',        '3.1.11'
 gem 'faker',          '1.7.3'
 gem 'carrierwave',             '1.1.0'
@@ -21,6 +22,7 @@ gem 'cocoon'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
+  gem 'rspec',    '3.0'
 end
 
 group :development do
